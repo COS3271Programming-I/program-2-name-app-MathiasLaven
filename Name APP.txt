@@ -1,0 +1,26 @@
+package my_project;
+import java.util.Scanner;
+
+public class MyClass {
+	static Scanner userinput = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("Please provide some information about a person of your choice.\n");
+		System.out.println("");
+		
+		System.out.print("Enter the person's first name: \n>>");
+		String firstName = userinput.nextLine();
+		System.out.print("Enter the person's last name: \n>>");
+		String lastName = userinput.nextLine();
+		System.out.print("Enter the person's age: \n>>");
+		int age = userinput.nextInt();
+		System.out.print("Enter their average hours of sleep per night (as a decimal): \n>>");
+		double avgSleepHours = userinput.nextDouble();
+		
+		System.out.println("");
+		
+		System.out.format("Name: %s %s\n", firstName, lastName);
+		System.out.format("Age: %d years old\n", age);
+		System.out.format("Avg sleep per night: %.1f\n", avgSleepHours);
+		
+	}
+}

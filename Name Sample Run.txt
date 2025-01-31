@@ -1,0 +1,15 @@
+Please provide some information about a person of your choice.
+
+
+Enter the person's first name: 
+>>Mathias
+Enter the person's last name: 
+>>Laven
+Enter the person's age: 
+>>16
+Enter their average hours of sleep per night (as a decimal): 
+>>8.75
+
+Name: Mathias Laven
+Age: 16 years old
+Avg sleep per night: 8.8
