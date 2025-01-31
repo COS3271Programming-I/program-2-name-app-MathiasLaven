@@ -20,7 +20,7 @@ public class MyClass {
 		
 		System.out.format("Name: %s %s\n", firstName, lastName);
 		System.out.format("Age: %d years old\n", age);
-		System.out.format("Avg sleep per night: %.1f\n", avgSleepHours);
+		System.out.format("Sleep: %.1f hours per night\n", avgSleepHours);
 		
 	}
 }

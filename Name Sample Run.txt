@@ -12,4 +12,4 @@ Enter their average hours of sleep per night (as a decimal):
 
 Name: Mathias Laven
 Age: 16 years old
-Avg sleep per night: 8.8
+Sleep: 8.8 hours per night
